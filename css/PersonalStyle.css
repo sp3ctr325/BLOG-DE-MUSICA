@@ -1,6 +1,16 @@
-body{
-	background-color: gray;
+.container{
+	background-color:#E5E5E5;
 }
-header{
-	height: 50px;
+.cabecera{
+	/*Definicio gradiente cabecera*/
+	background-image: -o-linear-gradient(bottom, #2D2E2E 0%, #D10808 51%, #2D2E2E 100%);
+    background-image: -moz-linear-gradient(bottom, #2D2E2E 0%, #D10808 51%, #2D2E2E 100%);
+    background-image: -webkit-linear-gradient(bottom, #2D2E2E 0%, #D10808 51%, #2D2E2E 100%);
+    background-image: -ms-linear-gradient(bottom, #2D2E2E 0%, #D10808 51%, #2D2E2E 100%);
+    background-image: linear-gradient(to bottom, #2D2E2E 0%, #D10808 51%, #2D2E2E 100%);
+    /*Definicion de medidas del contenedor*/
+    height: 3%;
 }
+.LogoMusica{
+	height: 100%;
+}	
