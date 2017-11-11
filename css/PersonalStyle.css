@@ -1,16 +1,29 @@
-.container{
+.contenedor{
 	background-color:#E5E5E5;
 }
 .cabecera{
 	/*Definicio gradiente cabecera*/
-	background-image: -o-linear-gradient(bottom, #2D2E2E 0%, #D10808 51%, #2D2E2E 100%);
-    background-image: -moz-linear-gradient(bottom, #2D2E2E 0%, #D10808 51%, #2D2E2E 100%);
-    background-image: -webkit-linear-gradient(bottom, #2D2E2E 0%, #D10808 51%, #2D2E2E 100%);
-    background-image: -ms-linear-gradient(bottom, #2D2E2E 0%, #D10808 51%, #2D2E2E 100%);
-    background-image: linear-gradient(to bottom, #2D2E2E 0%, #D10808 51%, #2D2E2E 100%);
+   background-image: -o-linear-gradient(left bottom, #124F4F 6%, #D10808 25%, #124F4F 52%, #D10808 75%, #124F4F 100%);
+   background-image: -moz-linear-gradient(left bottom, #124F4F 6%, #D10808 25%, #124F4F 52%, #D10808 75%, #124F4F 100%);
+   background-image: -webkit-linear-gradient(left bottom, #124F4F 6%, #D10808 25%, #124F4F 52%, #D10808 75%, #124F4F 100%);
+   background-image: -ms-linear-gradient(left bottom, #124F4F 6%, #D10808 25%, #124F4F 52%, #D10808 75%, #124F4F 100%);
+   background-image: linear-gradient(to left bottom, #124F4F 6%, #D10808 25%, #124F4F 52%, #D10808 75%, #124F4F 100%);
     /*Definicion de medidas del contenedor*/
-    height: 3%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+.imagen{
+ height: 70px;
+
 }
 .LogoMusica{
 	height: 100%;
+  border-radius: 10px 0px 0px 0px;
 }	
+.icono{
+  height: 40px;
+  box-shadow: 2px 2px gray;
+}
+.imagenes{
+  height: 15em;
+}
